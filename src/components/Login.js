@@ -71,7 +71,6 @@ const Login = () => {
   return (
     <div>
       <Header />
-
       
       <div className=" absolute">
         <img

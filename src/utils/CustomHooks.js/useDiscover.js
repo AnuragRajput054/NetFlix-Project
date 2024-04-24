@@ -16,7 +16,7 @@ const useDiscover = () => {
 
     const json = await data.json();
    
-    dispatch(addDiscover(json.results));
+    dispatch(addDiscover(json?.results));
   };
 
   useEffect(() => {

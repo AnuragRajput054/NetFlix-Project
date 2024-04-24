@@ -11,10 +11,10 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: "Bearer" + process.env.REACT_APP_TMDB_KEY,
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OGQ0NjczYjg1Mzc1N2ViYmFiYjQ5MzMzOTY1OTYzMCIsInN1YiI6IjY1ZTMwZjRlMmUyYjJjMDE4NWI1YmU4OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7hW0Cq2Rpy_huOrK4U9tt1rQ2zCJas4Bn-6E9HHiWIU'
   },
 };
-
+export const BANNER_IMG_CDN_URL = "https://image.tmdb.org/t/p/original";
 export const SUPPORTED_LANGUAGE = [
   { identifier: "en", name: "English" },
   { identifier: "Hindi", name: "हिन्दी" },
@@ -23,6 +23,6 @@ export const SUPPORTED_LANGUAGE = [
   { identifier: "Chinese", name: "Chinese" },
 ];
 
-export const GIMINI_API_KEY = process.env.REACT_APP_GIMINI_API_KEY;
+export const GIMINI_API_KEY = "AIzaSyAwwm-TyWwuGjnX_gPO2Z30Nbh-Hyc1J04";
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
